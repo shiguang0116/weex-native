@@ -1,0 +1,48 @@
+export const STYLE_MAP = {
+  taobao: {
+    backgroundColor: '#FF5000'
+  },
+  fliggy: {
+    backgroundColor: '#FFC900'
+  },
+  normal: {
+    backgroundColor: '#FFFFFF',
+    borderColor: '#A5A5A5',
+    borderWidth: '1px'
+  },
+  highlight: {
+    backgroundColor: '#FFFFFF',
+    borderColor: '#EE9900',
+    borderWidth: '1px'
+  },
+  jishi: {
+    backgroundColor: '#ff8000'
+  },
+  jishiBorder: {
+    backgroundColor: '#FFFFFF',
+    borderColor: '#ff8000',
+    borderWidth: '1px'
+  }
+};
+
+export const TEXT_STYLE_MAP = {
+  taobao: {
+    color: '#FFFFFF'
+  },
+  fliggy: {
+    color: '#3D3D3D'
+  },
+  normal: {
+    color: '#3D3D3D'
+  },
+  highlight: {
+    color: '#EE9900'
+  },
+  jishi: {
+    color: '#FFFFFF'
+  },
+  jishiBorder: {
+    color: '#ff8000'
+  }
+
+};

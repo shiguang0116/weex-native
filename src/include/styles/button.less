@@ -1,0 +1,88 @@
+@import './index';
+
+.btn {
+    height: @button-height;
+    line-height: @button-height - 2;
+    font-size: @button-font-size;
+    text-align: center;
+    border-radius: @radius-md;
+}
+
+.btn-default {
+    background-color: @fill-base;
+    border-width: @hd;
+    border-style: solid;
+    border-color: @border-color-base;
+    color: @color-text-base;
+
+    &:active {
+        background-color: @fill-tap;
+    }
+}
+
+.btn-ghost {
+    background-color: @fill-base;
+    border-width: @hd;
+    border-style: solid;
+    border-color: @ghost-button-color;
+    color: @ghost-button-color;
+
+    &:active {
+        background-color: fade(@fill-tap, 30%);
+    }
+}
+
+.btn-disabled {
+    background-color: fade(@fill-disabled, 60%);
+    border-width: @hd;
+    border-style: solid;
+    border-color: fade(@border-color-base, 60%);
+    color: @color-text-disabled;
+
+    &:active {
+        background-color: fade(@fill-disabled, 60%);
+    }
+}
+
+.btn-primary {
+    background-color: @brand-primary;
+    color: @color-text-base-inverse;
+    
+    &:active {
+        background-color: @brand-primary-tap;
+    }
+}
+
+.btn-success {
+    background-color: @brand-success;
+    color: @color-text-base-inverse;
+
+    &:active {
+        background-color: @brand-success-tap;
+    }
+}
+
+.btn-warning {
+    background-color: @brand-warning;
+    color: @color-text-base-inverse;
+
+    &:active {
+        background-color: @brand-warning-tap;
+    }
+}
+
+.btn-error {
+    background-color: @brand-error;
+    color: @color-text-base-inverse;
+
+    &:active {
+        background-color: @brand-error-tap;
+    }
+}
+
+.btn-small {
+    height: @button-height-sm;
+    font-size: @button-font-size-sm;
+    line-height: @button-height-sm - 2;
+    border-radius: @radius-sm;
+}

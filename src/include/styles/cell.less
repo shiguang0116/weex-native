@@ -1,0 +1,64 @@
+@import './index';
+
+.cell {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24 * @hd;
+    padding-right: 24 * @hd;
+    background-color: @fill-base;
+}
+
+.cell-margin {
+    margin-top: 24 * @hd;
+}
+
+.cell-title {
+    flex: 1;
+}
+
+.cell-indent {
+    padding-top: @v-spacing-lg;
+    padding-bottom: @v-spacing-lg;
+}
+
+.has-desc {
+    padding-top: @v-spacing-md;
+    padding-bottom: @v-spacing-md;
+}
+
+.cell-top-border {
+    border-top-width: @hd;
+    border-top-color: @border-color-base;
+}
+
+.cell-bottom-border {
+    border-bottom-width: @hd;
+    border-bottom-color: @border-color-base;
+}
+
+.cell-label {
+    font-size: @font-size-heading;
+    color: @color-text-base;
+    min-width: 103 * @hd;
+    //margin-right: @h-spacing-md;
+}
+
+.cell-arrow-icon {
+    width: @icon-size-md;
+    height: @icon-size-md;
+}
+
+.cell-content {
+    font-size: @font-size-base;
+}
+
+.cell-desc {
+    color: @color-text-caption;
+    font-size: @font-size-caption-sm;
+    margin-top: @v-spacing-sm;
+}
+
+.cell-active {
+    
+}

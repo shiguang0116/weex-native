@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\shig\\weex\\weex-create\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_scan.xml",
+        "source": "D:\\shig\\weex\\weex-create\\platforms\\android\\app\\src\\main\\res\\menu\\main_scan.xml"
+    },
+    {
+        "merged": "D:\\shig\\weex\\weex-create\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\shig\\weex\\weex-create\\platforms\\android\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

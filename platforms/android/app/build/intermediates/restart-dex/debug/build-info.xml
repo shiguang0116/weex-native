@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="20494410716500" >
+
+    <task
+        name="javac"
+        duration="906" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="819" />
+    <task
+        name="verifier"
+        duration="263" />
+
+    <artifact
+        location="D:\shig\weex\weex-create\platforms\android\app\build\outputs\apk\weex-app.apk"
+        type="MAIN" />
+
+    <build timestamp="20494410716500" >
+        <artifact
+            location="D:\shig\weex\weex-create\platforms\android\app\build\outputs\apk\weex-app.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
